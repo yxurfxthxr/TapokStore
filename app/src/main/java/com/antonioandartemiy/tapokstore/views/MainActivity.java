@@ -66,15 +66,23 @@ public class MainActivity extends AppCompatActivity implements ShoeItemAdapter.S
     }
 
     private void setUpList() {
-        shoeItemList.add(new ShoeItem("Nike Revolution", "Nike", R.drawable.nike_revolution_road, 15000));
-        shoeItemList.add(new ShoeItem("Nike Flex Run 2021", "NIKE", R.drawable.flex_run_road_running, 20000));
-        shoeItemList.add(new ShoeItem("Court Zoom Vapor", "NIKE", R.drawable.nikecourt_zoom_vapor_cage, 18000));
-        shoeItemList.add(new ShoeItem("EQ21 Run COLD.RDY", "ADIDAS", R.drawable.adidas_eq_run, 16500));
-        shoeItemList.add(new ShoeItem("Adidas Ozelia", "ADIDAS", R.drawable.adidas_ozelia_shoes_grey, 20000));
-        shoeItemList.add(new ShoeItem("Adidas Questar", "ADIDAS", R.drawable.adidas_questar_shoes, 22000));
-        shoeItemList.add(new ShoeItem("Adidas Questar", "ADIDAS", R.drawable.adidas_questar_shoes, 12000));
-        shoeItemList.add(new ShoeItem("Adidas Ultraboost", "ADIDAS", R.drawable.adidas_ultraboost, 15000));
-
+        shoeItemList.add(new ShoeItem("Nike Quest 5", "Nike", R.drawable.nike_quest_5, 13999.99));
+        shoeItemList.add(new ShoeItem("Nike React Pegasus", "Nike", R.drawable.nike_react_pegasus_trail, 22499.99));
+        shoeItemList.add(new ShoeItem("Nike Air Monarch IV", "Nike", R.drawable.nike_air_monarch, 14999.69));
+        shoeItemList.add(new ShoeItem("Nike Zoom Fly 5", "Nike", R.drawable.nike_zoom_fly_5, 27899.52));
+        shoeItemList.add(new ShoeItem("Nike Revolution", "Nike", R.drawable.nike_revolution_road, 10799.49));
+        shoeItemList.add(new ShoeItem("Nike Flex Run 2021", "Nike", R.drawable.flex_run_road_running, 27999.39));
+        shoeItemList.add(new ShoeItem("Court Zoom Vapor", "Nike", R.drawable.nikecourt_zoom_vapor_cage, 21999.29));
+        shoeItemList.add(new ShoeItem("EQ21 Run COLD.RDY", "Adidas", R.drawable.adidas_eq_run, 13999.19));
+        shoeItemList.add(new ShoeItem("Adidas Ozelia", "Adidas", R.drawable.adidas_ozelia_shoes_grey, 161999.09));
+        shoeItemList.add(new ShoeItem("Adidas Questar", "Adidas", R.drawable.adidas_questar_shoes, 11499.99));
+        shoeItemList.add(new ShoeItem("Adidas Ultraboost", "Adidas", R.drawable.adidas_ultraboost, 29699.52));
+        shoeItemList.add(new ShoeItem("Supernova Stride", "Adidas", R.drawable.supernova_stride, 17699.89));
+        shoeItemList.add(new ShoeItem("Adidas Ozelle", "Adidas", R.drawable.adidas_ozelle, 10999.79));
+        shoeItemList.add(new ShoeItem("Adidas Runfalcon 3.0", "Adidas", R.drawable.adidas_runfalcon, 10999.69));
+        shoeItemList.add(new ShoeItem("PUMA X-Ray 3 Sd", "Puma", R.drawable.puma_xray, 9999.59));
+        shoeItemList.add(new ShoeItem("Skyrocket Lite Alt", "Puma", R.drawable.skyrocket_lite_alt, 6999.49));
+        shoeItemList.add(new ShoeItem("Skyrocket Lite Engine", "Puma", R.drawable.skyrocket_lite_engine, 7999.39));
     }
 
     private void initializeVariables() {

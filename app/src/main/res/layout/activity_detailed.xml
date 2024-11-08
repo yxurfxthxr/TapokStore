@@ -60,7 +60,7 @@
         android:layout_marginTop="24dp"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:text="Тут должно быть описание обуви, но бюджет приложения ограничен."
+        android:text=" Легкие и дышащие спортивные кроссовки с амортизирующей подошвой для комфорта и устойчивости. Подходят для тренировок, бега и прогулок."
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
